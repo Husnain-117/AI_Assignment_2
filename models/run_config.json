@@ -1,0 +1,28 @@
+{
+  "args": {
+    "csv": "d:\\BS SE\\semester7\\AI\\A2\\data\\shakespeare_plays.csv",
+    "out": "models",
+    "vocab": 15000,
+    "min_len": 3,
+    "max_len": 30,
+    "step": 1,
+    "val": 0.2,
+    "batch": 128,
+    "epochs": 3,
+    "emb": 256,
+    "lstm": [
+      256,
+      256,
+      128
+    ],
+    "max_lines": 5000
+  },
+  "data_config": {
+    "vocab_size": 7942,
+    "max_seq_len": 29,
+    "min_len": 3,
+    "max_len": 30,
+    "step": 1,
+    "val_ratio": 0.2
+  }
+}
